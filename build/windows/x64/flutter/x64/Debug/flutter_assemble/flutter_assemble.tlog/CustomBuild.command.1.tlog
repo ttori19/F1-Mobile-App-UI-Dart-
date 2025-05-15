@@ -1,0 +1,28 @@
+^C:\USERS\FPAST\DESKTOP\PANCRACIO\PRACTICA_FINAL\BUILD\WINDOWS\X64\CMAKEFILES\3AB658C1B52140432048A35DCC71FC63\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\fpast\Desktop\flutter PROJECT_DIR=C:\Users\fpast\Desktop\PANCRACIO\practica_final FLUTTER_ROOT=C:\Users\fpast\Desktop\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\fpast\Desktop\PANCRACIO\practica_final\windows\flutter\ephemeral PROJECT_DIR=C:\Users\fpast\Desktop\PANCRACIO\practica_final FLUTTER_TARGET=C:\Users\fpast\Desktop\PANCRACIO\practica_final\lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\fpast\Desktop\PANCRACIO\practica_final\.dart_tool\package_config.json C:/Users/fpast/Desktop/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FPAST\DESKTOP\PANCRACIO\PRACTICA_FINAL\BUILD\WINDOWS\X64\CMAKEFILES\4724FDCA6AE4B3A20B56F234541C6581\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FPAST\DESKTOP\PANCRACIO\PRACTICA_FINAL\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/fpast/Desktop/PANCRACIO/practica_final/windows -BC:/Users/fpast/Desktop/PANCRACIO/practica_final/build/windows/x64 --check-stamp-file C:/Users/fpast/Desktop/PANCRACIO/practica_final/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

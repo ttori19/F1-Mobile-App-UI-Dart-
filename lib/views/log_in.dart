@@ -2,7 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:practica_final/views/vista_principal.dart';
 
 class LogIn extends StatelessWidget {
-  const LogIn({super.key});
+  LogIn({super.key});
+
+  final _formKey = GlobalKey<FormState>();
+  final _emailController = TextEditingController();
+  final _passwordController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -17,16 +21,11 @@ class LogIn extends StatelessWidget {
               ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  const Text(
-                    "LOG IN",
-                    style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
-                  ),
-                  Row(
-                    children: [
-                      Icon(Icons.settings, size: 40),
-                    ],
-                  ),
+                children: const [
+                  Text("LOG IN",
+                      style:
+                          TextStyle(fontSize: 26, fontWeight: FontWeight.bold)),
+                  Icon(Icons.settings, size: 40),
                 ],
               ),
             ),
@@ -37,46 +36,75 @@ class LogIn extends StatelessWidget {
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(20),
-                boxShadow: [
+                boxShadow: const [
                   BoxShadow(
-                    color: const Color.fromARGB(43, 0, 0, 0),
+                    color: Color.fromARGB(43, 0, 0, 0),
                     blurRadius: 10,
                     spreadRadius: 3,
-                    offset: const Offset(0, 5),
+                    offset: Offset(0, 5),
                   )
                 ],
               ),
-              child: Column(
-                children: [
-                  _inputField(Icons.mail_outline, "Email"),
-                  const SizedBox(height: 20),
-                  _inputField(Icons.lock_outline, "Password"),
-                  const SizedBox(height: 20),
-                  GestureDetector(
-                    onTap: () => vistaPrincipal(context),
-                    child: Container(
-                      height: 45,
-                      width: 150,
-                      decoration: BoxDecoration(
-                        color: const Color.fromARGB(255, 45, 252, 148),
-                        borderRadius: BorderRadius.circular(20),
-                        boxShadow: [
-                          BoxShadow(
-                            color: const Color.fromARGB(43, 0, 0, 0),
-                            blurRadius: 10,
-                            spreadRadius: 3,
-                            offset: const Offset(0, 5),
-                          )
-                        ],
-                      ),
-                      alignment: Alignment.center,
-                      child: const Text(
-                        "LOG IN",
-                        style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+              child: Form(
+                key: _formKey,
+                child: Column(
+                  children: [
+                    _inputField(
+                      icon: Icons.mail_outline,
+                      hintText: "Email",
+                      controller: _emailController,
+                      validator: (value) {
+                        if (value == null || !value.contains('@')) {
+                          return 'Introduce un email válido';
+                        }
+                        return null;
+                      },
+                    ),
+                    const SizedBox(height: 20),
+                    _inputField(
+                      icon: Icons.lock_outline,
+                      hintText: "Password",
+                      obscureText: true,
+                      controller: _passwordController,
+                      validator: (value) {
+                        if (value == null || value.length < 8) {
+                          return 'La contraseña debe tener al menos 8 caracteres';
+                        }
+                        return null;
+                      },
+                    ),
+                    const SizedBox(height: 20),
+                    GestureDetector(
+                      onTap: () {
+                        if (_formKey.currentState!.validate()) {
+                          vistaPrincipal(context);
+                        }
+                      },
+                      child: Container(
+                        height: 45,
+                        width: 150,
+                        decoration: BoxDecoration(
+                          color: const Color.fromARGB(255, 45, 252, 148),
+                          borderRadius: BorderRadius.circular(20),
+                          boxShadow: const [
+                            BoxShadow(
+                              color: Color.fromARGB(43, 0, 0, 0),
+                              blurRadius: 10,
+                              spreadRadius: 3,
+                              offset: Offset(0, 5),
+                            )
+                          ],
+                        ),
+                        alignment: Alignment.center,
+                        child: const Text(
+                          "SIGN UP",
+                          style: TextStyle(
+                              fontSize: 28, fontWeight: FontWeight.bold),
+                        ),
                       ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
             const Spacer(),
@@ -93,10 +121,20 @@ class LogIn extends StatelessWidget {
     Navigator.of(context).push(route);
   }
 
-  Widget _inputField(IconData icon, String hintText) {
-    return TextField(
+  Widget _inputField({
+    required IconData icon,
+    required String hintText,
+    required TextEditingController controller,
+    bool obscureText = false,
+    String? Function(String?)? validator,
+  }) {
+    return TextFormField(
+      controller: controller,
+      obscureText: obscureText,
+      validator: validator,
       decoration: InputDecoration(
-        prefixIcon: Icon(icon, color: const Color.fromARGB(255, 45, 252, 148)),
+        prefixIcon:
+            Icon(icon, color: const Color.fromARGB(255, 45, 252, 148)),
         hintText: hintText,
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(20),
