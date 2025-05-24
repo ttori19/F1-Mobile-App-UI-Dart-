@@ -15,18 +15,12 @@ class LogIn extends StatelessWidget {
         child: Column(
           children: [
             Container(
+              height:95,
               padding: const EdgeInsets.all(10),
               decoration: const BoxDecoration(
-                color: Color.fromARGB(1, 1, 1, 1),
-              ),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: const [
-                  Text("LOG IN",
-                      style:
-                          TextStyle(fontSize: 26, fontWeight: FontWeight.bold)),
-                  Icon(Icons.settings, size: 40),
-                ],
+                image: DecorationImage(image: AssetImage("assets/img/fondo_f1_3.jpg"),
+                fit: BoxFit.fill,
+                ),
               ),
             ),
             const Spacer(),
@@ -84,7 +78,7 @@ class LogIn extends StatelessWidget {
                         height: 45,
                         width: 150,
                         decoration: BoxDecoration(
-                          color: const Color.fromARGB(255, 45, 252, 148),
+                          color: const Color.fromARGB(255, 255, 255, 47),
                           borderRadius: BorderRadius.circular(20),
                           boxShadow: const [
                             BoxShadow(
@@ -134,7 +128,7 @@ class LogIn extends StatelessWidget {
       validator: validator,
       decoration: InputDecoration(
         prefixIcon:
-            Icon(icon, color: const Color.fromARGB(255, 45, 252, 148)),
+            Icon(icon, color: const Color.fromARGB(255, 255, 255, 47)),
         hintText: hintText,
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(20),

@@ -1,0 +1,94 @@
+{
+   "checksum": "a170252c68724801d639f0d18f2a5955",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13077564608317826",
+            "date_last_used": "0",
+            "guid": "62b854f1-2792-4ac8-8f5e-4d0ac342d2b0",
+            "id": "6",
+            "name": "Amazon.co.uk – Online Shopping",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "http://redirect.hp.com/svs/rdr?locale=es_es&c=142&bd=pavilion&tp=iefavbar&s=amazon&pf=cnnb&TYPE=4",
+            "visit_count": 0
+         }, {
+            "date_added": "13077564608161569",
+            "date_last_used": "0",
+            "guid": "60f171f5-e9f4-426c-8d68-8dcd0ba19814",
+            "id": "7",
+            "name": "TripAdvisor",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "http://js.redirect.hp.com/jumpstation?bd=all&c=none&locale=all&pf=cnnb&s=TripAdvisor_iefav&tp=iefavs",
+            "visit_count": 0
+         } ],
+         "date_added": "13391894832547418",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Barra de favoritos",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13077564608317826",
+               "date_last_used": "0",
+               "guid": "df0b5cea-346d-46d2-91f9-dcf56493a78f",
+               "id": "9",
+               "name": "Amazon.co.uk – Online Shopping",
+               "show_icon": false,
+               "source": "import_fre",
+               "type": "url",
+               "url": "http://redirect.hp.com/svs/rdr?locale=es_es&c=142&bd=pavilion&tp=iefavbar&s=amazon&pf=cnnb&TYPE=4",
+               "visit_count": 0
+            }, {
+               "date_added": "13077564608317826",
+               "date_last_used": "0",
+               "guid": "e4d07430-2078-4177-b7e0-084569431c7c",
+               "id": "10",
+               "name": "HP Store",
+               "show_icon": false,
+               "source": "import_fre",
+               "type": "url",
+               "url": "http://js.redirect.hp.com/jumpstation?bd=all&c=none&locale=es_es&pf=cnnb&s=stemea_consumer_ie_nb&tp=iefavs",
+               "visit_count": 0
+            } ],
+            "date_added": "13391894836383126",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "6ff52944-2224-4af6-9331-251543ec990f",
+            "id": "8",
+            "name": "HP",
+            "source": "import_fre",
+            "type": "folder"
+         } ],
+         "date_added": "13391894832547420",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Otros favoritos",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13391894832547428",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Favoritos móviles",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CpsBCh4IiIECEggYKWzalgEAACoOEAAYASADKAUwADgAQAASABpYSFRXelN4QVNlL0N4QmhiNWRxTERXODlmVkdlbXVzbHlpQnprT0ZmUjlSTkM2YnFOZDlBNTVIdWlOcDlvRGJidE1ncWRkNno3V2JFbjdwQ3RZSkhBNWc9PSoYbUVobkV4aUdwcU8vUVErbUowd01YUT09SAOgBgwSrAEIBxKnAQocSzgzaDMySnhLaW56cTRQZlByamxVR1FBTGpRPRIkNjBmMTcxZjUtZTlmNC00MjZjLThkNjgtOGRjZDBiYTE5ODE0GAAgASgBMIbZsNPtMjjiu7DT7TJA4ruw0+0yShxXM3dNeVcybVltV29SampYR0VJVnBKYytmSkk9Wh4iHE4yQlY2TlN2RHpMTjRWSEhaZyt5bGN2cmRFaz1lAAAAAMI+AmACEo4BCAESiQEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0SJGMyN2Y1MGJmLTk0ZTYtNTc5YS04Y2E2LThmZWVmZWQwNDQyOBgAIAAoADCUxLDT7TI44cew0+0yQOHHsNPtMkocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAADCPgJgABKsAQgGEqcBChxJTDcyeEJobkxHQmFDNmlSaW5xVTVzdHhpQUE9EiQ2MmI4NTRmMS0yNzkyLTRhYzgtOGY1ZS00ZDBhYzM0MmQyYjAYACABKAEwgtmw0+0yOOK7sNPtMkDiu7DT7TJKHC9NYkFVVlA5RDZRZkxaVWh2QUpXTkE5U082Zz1aHiIcNFFIZGJBdmtIeEVieVRHdjV3T21udW1BS2c4PWUAAAAAwj4CYAISrAEICBKnAQocZ3JsRllPRExCUDFyRmtRQ25lZU1uUDVDN1NZPRIkNmZmNTI5NDQtMjIyNC00YWY2LTkzMzEtMjUxNTQzZWM5OTBmGAAgASgBMIPZsNPtMjjiu7DT7TJA4ruw0+0yShxnRm5QTU9UUUFsWG4vNDFyUTIvVnpHb0hhN0E9Wh4iHFBTUUJTd0RGbldtUlJCQlpCWTBqd21YcXVkMD1lAAAAAMI+AmACEq0BCAoSqAEKHE5DZm5IY21MOXdJaWh2VnJuVTBxSUJGRHZuZz0SJGU0ZDA3NDMwLTIwNzgtNDE3Ny1iN2UwLTA4NDU2OTQzMWM3YxgAIAEoATCF2bDT7TI44ruw0+0yQOK7sNPtMkocRmh1TVpmTG55cHpCOTkzaU8razd1NUpwSnVRPVofIh29aUY3MnVrcExUdEhkdkhGakxTWnpyZEE4TnNBPWUAAAAAwj4CYAISrAEICRKnAQocTEQvUzNNbzZDTXFmMzliVitDcTJUMnBxYkVJPRIkZGYwYjVjZWEtMzQ2ZC00NmQyLTkxZjktZGNmNTY0OTNhNzhmGAAgASgBMITZsNPtMjjiu7DT7TJA4ruw0+0yShxNTHhnblhKTW8vRlFxS1RvTzhqK0hhL1JLQnc9Wh4iHHpESzdVM2NpajZjY1BXR25MNktzTUZOZ1ZoVT1lAAAAAMI+AmACEo4BCAISiQEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SJGFhNTg0ZGEwLTdlOWQtNWM0MC05NmYzLTZiOWE5OTI1NWNhMxgAIAAoADCVxLDT7TI4hciw0+0yQIXIsNPtMkocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAADCPgJgABKOAQgDEokBChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiRjYTIxMjU0NS1jOTI2LTVlOGYtYTA5ZC1hZjY4YThiM2Q3MzUYACAAKAAwmsSw0+0yONLIsNPtMkDSyLDT7TJKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAwj4CYAAwADgA",
+   "version": 1
+}

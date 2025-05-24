@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => MaterialApp(
-        title: 'Tienda de armas',
+        title: 'F1Stats',
         debugShowCheckedModeBanner: false,  // Oculta el banner que aparece en la esquina superior derecha
         home:  LogIn(), // Widget principal de main_view.dart
       );

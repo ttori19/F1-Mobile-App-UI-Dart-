@@ -1,0 +1,77 @@
+{
+   "checksum": "2e4e63dc7ef8df81ce35dc5d7e67f2f1",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13077564608317826",
+            "date_last_used": "0",
+            "guid": "62b854f1-2792-4ac8-8f5e-4d0ac342d2b0",
+            "id": "6",
+            "name": "Amazon.co.uk – Online Shopping",
+            "type": "url",
+            "url": "http://redirect.hp.com/svs/rdr?locale=es_es&c=142&bd=pavilion&tp=iefavbar&s=amazon&pf=cnnb&TYPE=4"
+         }, {
+            "date_added": "13077564608161569",
+            "date_last_used": "0",
+            "guid": "60f171f5-e9f4-426c-8d68-8dcd0ba19814",
+            "id": "7",
+            "name": "TripAdvisor",
+            "type": "url",
+            "url": "http://js.redirect.hp.com/jumpstation?bd=all&c=none&locale=all&pf=cnnb&s=TripAdvisor_iefav&tp=iefavs"
+         } ],
+         "date_added": "13391894832547418",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Barra de marcadores",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13077564608317826",
+               "date_last_used": "0",
+               "guid": "df0b5cea-346d-46d2-91f9-dcf56493a78f",
+               "id": "9",
+               "name": "Amazon.co.uk – Online Shopping",
+               "type": "url",
+               "url": "http://redirect.hp.com/svs/rdr?locale=es_es&c=142&bd=pavilion&tp=iefavbar&s=amazon&pf=cnnb&TYPE=4"
+            }, {
+               "date_added": "13077564608317826",
+               "date_last_used": "0",
+               "guid": "e4d07430-2078-4177-b7e0-084569431c7c",
+               "id": "10",
+               "name": "HP Store",
+               "type": "url",
+               "url": "http://js.redirect.hp.com/jumpstation?bd=all&c=none&locale=es_es&pf=cnnb&s=stemea_consumer_ie_nb&tp=iefavs"
+            } ],
+            "date_added": "13391894836383126",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "6ff52944-2224-4af6-9331-251543ec990f",
+            "id": "8",
+            "name": "HP",
+            "type": "folder"
+         } ],
+         "date_added": "13391894832547420",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Otros marcadores",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13391894832547428",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Marcadores móvil",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

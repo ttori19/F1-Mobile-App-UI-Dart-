@@ -3,6 +3,8 @@ C:/Users/fpast/Desktop/PANCRACIO/practica_final/build/windows/x64/runner/Debug/f
 C:/Users/fpast/Desktop/PANCRACIO/practica_final/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.bin
 C:/Users/fpast/Desktop/PANCRACIO/practica_final/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.bin.json
 C:/Users/fpast/Desktop/PANCRACIO/practica_final/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.json
+C:/Users/fpast/Desktop/PANCRACIO/practica_final/build/windows/x64/runner/Debug/data/flutter_assets/assets/img/fondo_F1.jpg
+C:/Users/fpast/Desktop/PANCRACIO/practica_final/build/windows/x64/runner/Debug/data/flutter_assets/assets/img/fondo_F1_2.jpg
 C:/Users/fpast/Desktop/PANCRACIO/practica_final/build/windows/x64/runner/Debug/data/flutter_assets/FontManifest.json
 C:/Users/fpast/Desktop/PANCRACIO/practica_final/build/windows/x64/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
 C:/Users/fpast/Desktop/PANCRACIO/practica_final/build/windows/x64/runner/Debug/data/flutter_assets/kernel_blob.bin
