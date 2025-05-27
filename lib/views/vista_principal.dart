@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:practica_final/views/log_in.dart';
 import 'package:practica_final/models/model_games.dart';
 import 'package:practica_final/views/detail_page.dart'; 
+import 'package:practica_final/views/user_profile.dart';
 
 class VistaPrincipal extends StatefulWidget{
   const VistaPrincipal({super.key});
@@ -56,7 +57,16 @@ class _VistaPrincipalState extends State<VistaPrincipal>{
                     ),
                     child: const Icon(Icons.logout, size: 40),
                   ),
-                  const Icon(Icons.settings, size: 40),
+                  GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (_) => const UserProfile()),
+                        );
+                      },
+                      child: const Icon(Icons.settings, size: 40),
+                    ),
+
                 ],
               ),
             ),
