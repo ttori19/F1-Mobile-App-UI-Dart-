@@ -99,7 +99,17 @@ class _DetailPageState extends State<DetailPage> {
                   const SizedBox(height: 30),
                   ElevatedButton.icon(
                     onPressed: toggleFavorite,
-                    icon: Icon(isFav ? Icons.favorite : Icons.favorite_border),
+                    icon: AnimatedSwitcher( //efecto visual al pulsar el boton
+                          duration: const Duration(milliseconds: 300),
+                          transitionBuilder: (Widget child, Animation<double> animation) {
+                            return ScaleTransition(scale: animation, child: child);
+                          },
+                          child: Icon(
+                            isFav ? Icons.favorite : Icons.favorite_border,
+                            key: ValueKey<bool>(isFav), // Importante para que detecte cambios
+                          ),
+                        ),
+
                     label: Text(isFav ? 'Eliminar de favoritos' : 'Añadir a favoritos'),
                     style: ElevatedButton.styleFrom(
                       backgroundColor: const Color.fromARGB(255, 255, 192, 203),

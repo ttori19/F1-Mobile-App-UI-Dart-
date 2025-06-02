@@ -85,8 +85,23 @@ class LogIn extends StatelessWidget {
                             onTap: () {
                               if (_formKey.currentState!.validate()) {
                                 vistaPrincipal(context);
+                              } else {
+                                showDialog(
+                                  context: context,
+                                  builder: (context) => AlertDialog(
+                                    title: const Text('Error de validación'),
+                                    content: const Text('Por favor, revisa los campos del formulario.'),
+                                    actions: [
+                                      TextButton(
+                                        onPressed: () => Navigator.of(context).pop(),
+                                        child: const Text('Cerrar'),
+                                      ),
+                                    ],
+                                  ),
+                                );
                               }
-                            },//si los campos son validados llama a la funcion que la lleva a la siguiente pantalla
+                            },
+                            //si los campos son validados llama a la funcion que la lleva a la siguiente pantalla
                             child: Container(
                               height: 45,
                               width: 150,
