@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Max Verstappen",
+    "team": "Red Bull Racing",
+    "number": 33,
+    "imagePath": "assets/img/max.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Alex Albon",
+    "team": "Williams",
+    "number": 23,
+    "imagePath": "assets/img/albon.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Charles Leclerc",
+    "team": "Scuderia Ferrari",
+    "number": 16,
+    "imagePath": "assets/img/leclerc.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Fernando Alonso",
+    "team": "Aston Martin",
+    "number": 14,
+    "imagePath": "assets/img/alonso.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Lando Norris",
+    "team": "McLaren",
+    "number": 4,
+    "imagePath": "assets/img/norris.jpg"
+  },
+  {
+    "id": 6,
+    "name": "George Russell",
+    "team": "Mercedes",
+    "number": 63,
+    "imagePath": "assets/img/russell.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Pierre Gasly",
+    "team": "Alpine",
+    "number": 10,
+    "imagePath": "assets/img/gasly.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Liam Lawson",
+    "team": "Racing Bulls",
+    "number": 30,
+    "imagePath": "assets/img/lawson.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Nico Hulkenberg",
+    "team": "Sauber",
+    "number": 27,
+    "imagePath": "assets/img/hulkenberg.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Oliver Bearman",
+    "team": "Haas",
+    "number": 87,
+    "imagePath": "assets/img/bearman.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Sergio Pérez",
+    "team": "Red Bull Racing",
+    "number": 11,
+    "imagePath": "assets/img/perez.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Logan Sargeant",
+    "team": "Williams",
+    "number": 2,
+    "imagePath": "assets/img/sargeant.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Carlos Sainz",
+    "team": "Scuderia Ferrari",
+    "number": 55,
+    "imagePath": "assets/img/sainz.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Lance Stroll",
+    "team": "Aston Martin",
+    "number": 18,
+    "imagePath": "assets/img/stroll.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Oscar Piastri",
+    "team": "McLaren",
+    "number": 81,
+    "imagePath": "assets/img/piastri.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Lewis Hamilton",
+    "team": "Mercedes",
+    "number": 44,
+    "imagePath": "assets/img/hamilton.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Esteban Ocon",
+    "team": "Alpine",
+    "number": 31,
+    "imagePath": "assets/img/ocon.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Yuki Tsunoda",
+    "team": "Racing Bulls",
+    "number": 22,
+    "imagePath": "assets/img/tsunoda.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Valtteri Bottas",
+    "team": "Sauber",
+    "number": 77,
+    "imagePath": "assets/img/bottas.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Kevin Magnussen",
+    "team": "Haas",
+    "number": 20,
+    "imagePath": "assets/img/magnussen.jpg"
+  }
+]
