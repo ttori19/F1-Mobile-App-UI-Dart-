@@ -24,7 +24,7 @@ Asegúrese de tener instalado Flutter correctamente ejecutando en su terminal:
 flutter --version
 ```
 ### 2.Instalación
-Clona el repositorio en tu máquina local:
+Clona el repositorio en tu máquina local y luego accede a él desde la terminal:
 ```bash
 git clone https://github.com/ttori19/F1-Mobile-App-UI-Dart-.git 
 ```
@@ -39,3 +39,4 @@ Conecta tu emulador y selecciona el dispositivo para luego ejecutar con
 ```bash
 flutter run
 ```
+## 📸 Capturas de Pantalla
