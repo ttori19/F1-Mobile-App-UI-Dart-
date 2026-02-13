@@ -22,3 +22,20 @@ Sigue estos pasos para realizar una copia local y desplegar el proyecto:
 Asegúrese de tener instalado Flutter correctamente ejecutando en su terminal:
 ```bash
 flutter --version
+```
+### 2.Instalación
+Clona el repositorio en tu máquina local:
+```bash
+git clone https://github.com/ttori19/F1-Mobile-App-UI-Dart-.git 
+```
+### 3.Setup
+Limpia el proyecto y recupera las dependencias antes de ejecutarlo:
+```bash
+flutter clean
+flutter pub get
+```
+### 4.Ejecución
+Conecta tu emulador y selecciona el dispositivo para luego ejecutar con
+```bash
+flutter run
+```
