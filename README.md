@@ -40,3 +40,7 @@ Conecta tu emulador y selecciona el dispositivo para luego ejecutar con
 flutter run
 ```
 ## 📸 Capturas de Pantalla
+<img width="237" height="514" alt="Captura de pantalla 2026-02-13 190201" src="https://github.com/user-attachments/assets/9775f722-f894-4b04-8546-229f75add5d5" />
+<img width="231" height="512" alt="Captura de pantalla 2026-02-13 190224" src="https://github.com/user-attachments/assets/90ec989a-38c3-4938-8dfc-7f9444cd81a2" />
+<img width="240" height="488" alt="Captura de pantalla 2026-02-13 190247" src="https://github.com/user-attachments/assets/f45950ee-65f4-48ab-81fa-3346f78f3635" />
+<img width="237" height="515" alt="Captura de pantalla 2026-02-13 190304" src="https://github.com/user-attachments/assets/2bd62bc2-9aca-4aab-8b4f-8e7805072cdb" />
